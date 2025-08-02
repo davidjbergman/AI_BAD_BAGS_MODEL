@@ -1,0 +1,32 @@
+# virtual environments
+venv_tf/
+.env/
+
+# python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+
+# datasets
+dataset/
+dataset_split/
+
+# model checkpoints and logs
+*.h5
+*.keras
+*.ckpt
+logs/
+model_comparison.csv
+sample_images.png
+class_distribution.png
+oversampled_class_distribution.png
+augmented_samples.png
+
+# system files
+.DS_Store
+
+# video files
+*.mp4
+*.MP4
